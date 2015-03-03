@@ -1,0 +1,219 @@
+
+#menuTitle{
+	display: none;
+}
+
+#logo{
+	margin: 0 0 50px 0;
+	width: 100%;
+	height: 90px;
+}
+
+.selected{
+	background-color: #b9feab;
+}
+
+/*
+
+MENU
+_________________________________________________________________________________________*/
+
+#leMenu{
+	top: 15px;
+	margin: 50px 0 16px 0;
+}
+
+/*
+
+HOVER DE LOS ENLACES DEL MENU
+_______________________________________________________________________________________________*/
+
+#inicio:hover{
+	background-color: #82F2BD;
+}
+
+#musica:hover{
+	background-color: #FEF593;
+}
+
+#moda:hover{
+	background-color: #532F91;
+}
+
+#trends:hover{
+	background-color: #FE2A63;
+}
+
+#design:hover{
+
+}
+
+#soon:hover{
+	background-color: #E7404C;
+}
+
+#soon{
+	padding: 20px 3px 20px 3px;
+}
+
+
+
+ul, ol {
+	list-style:none;
+}
+
+li{
+	display: inline;
+	font-size: 15px;
+	font-family: "Gotham-h1-bold";
+	border-bottom: 5px;
+	text-align: center;
+}
+
+.nav-list{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-item{
+	width: 16.66%;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list a:link, .nav-list a:visited{
+	width: 100%;
+	font-weight:bold;
+	font-size: 20px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 0 0 0;
+	padding: 20px 30px 20px 30px;
+	/*background-color: #b9feab;*/
+}
+
+.nav-list a:hover, .nav-list a:active{
+	background-color: #b0d7ee;
+}
+
+/* Navigation styling */
+
+.nav {
+	z-index: 10;
+	width: 99%;
+	margin-left: 1%;
+	position:relative;
+	display:inline-block;
+	font-size:14px;
+	font-weight:900;
+}
+
+.nav-item {
+	float:left;
+	*display:inline;
+	zoom:1;
+}
+
+
+/* Mobile Navigation */
+.nav-mobile {
+	margin-top: 2px;
+	display:none; /* Hide from browsers that don't support media queries */
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:0;
+	background: black url(../Images/nav.svg) no-repeat center center;
+	height:40px;
+	width:40px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+/*------------------------------------*\
+    Media Queries
+\*------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+
+	.selected{
+		background-color: none;
+	}
+
+	#leMenu{
+		width: 100%;
+		position: relative;
+		margin-top: 0;
+		top: 0;
+		height: 45px;
+		z-index: 1;
+	}
+
+	#logo{
+		height: 40px;
+		margin: 2px 0 0 0;
+		width: 25%;
+		float: left;
+	}
+
+	.nav-mobile {
+		display:block;
+	}
+
+	.nav {
+		z-index: 1;
+		width:50%;
+		padding:40px 0 0;
+		margin: 0 0 0 25%;
+		float: none;
+	}
+
+	.nav-list {
+		display:none;
+		margin-top: 3px;
+	}
+
+	.nav-item{
+		float: none;
+	}
+
+	.nav-item a {
+		display:block;
+		background:#b9feab;
+	}
+
+	.nav-list a:link, .nav-list a:visited{
+		width: 75%;
+		margin-left: 25%;
+		padding: 20px 0 20px 0;
+	}
+
+	.nav-list a:hover, .nav-list a:active{
+		background-color: #b0d7ee;
+	}
+
+	.nav-item:first-child a {
+		border-radius: 5px 0 0;
+	}
+
+	.nav-item:last-child a {
+		border-radius:0 0 5px 5px;
+	}
+
+	.nav-active {
+		display:block;
+	}
+
+	.nav-mobile-open {
+		border-radius:5px 5px 0 0;
+		-webkit-border-radius:5px 5px 0 0;
+		-moz-border-radius:5px 5px 0 0;
+	}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){}

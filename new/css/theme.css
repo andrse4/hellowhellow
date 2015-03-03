@@ -1,0 +1,45 @@
+/* Landing
+==================================================================== */
+
+#hellowMenu nav{
+  margin-top: 25px;
+}
+
+#logo{
+  width: 100%;
+  height: 90px;
+}
+
+#headerLinks{
+  list-style: none;
+}
+
+#headerLinks li{
+  float: left;
+  width: 16.66%;
+  margin: 0;
+}
+
+#headerLinks a:link, #headerLinks a:visited {
+  width: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  cursor: auto;
+}
+
+#headerLinks a:link:active, #headerLinks a:visited:active {
+  color: #000000;
+}
+
+#inicio:hover { background-color: #82F2BD; }
+
+#musica:hover { background-color: #FEF593; }
+
+#moda:hover { background-color: #532F91; }
+
+#trends:hover { background-color: #FE2A63; }
+
+#design:hover { background-color: #B0D7EE; }

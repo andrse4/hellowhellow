@@ -1,0 +1,72 @@
+/* 1600px */
+
+.slideshow, .slideshow div, .carousel{
+	height: 600px;
+}
+
+.slideshow{
+	height: 100%;
+}
+
+.slideshow div{
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
+ .carousel{
+ 	width: 100%;
+ 	margin: 0 0 0 0;
+ }
+
+.slide img{
+	height: auto;
+	width: auto;
+	min-width: 100%;
+	min-height: 600px;
+}
+
+ .slides-pagination li a{
+ 	text-align: center;
+ 	background-color: #80C3D7;
+ }
+
+
+ /* Contenido adicional a las imagenes */
+.slide h1{
+	width: 375px;
+	position: relative;
+	left: 40px;
+	bottom: 200px;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	font-size: 3em;
+	font-weight: bolder;
+	text-align: left;
+	color: #b9feab;
+}
+
+.slide .hr{
+	width: 375px;
+	position: relative;
+	left: 40px;
+	bottom: 200px; 
+	height: 5px;
+	margin: 0 0 0 0;
+	background-color: white;
+	z-index: 0;
+}
+
+.slide h4{
+	width: 375px;
+	position: relative;
+	left: 40px;
+	bottom: 200px;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: white;
+	font-family: Helvetica;
+	font-weight: bolder;
+	text-align: left;
+}

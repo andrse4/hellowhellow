@@ -1,0 +1,375 @@
+/*
+#  ___  ___           _  _                                    _            
+#  |  \/  |          | |(_)                                  (_)           
+#  | .  . |  ___   __| | _   __ _    __ _  _   _   ___  _ __  _   ___  ___ 
+#  | |\/| | / _ \ / _` || | / _` |  / _` || | | | / _ \| '__|| | / _ \/ __|
+#  | |  | ||  __/| (_| || || (_| | | (_| || |_| ||  __/| |   | ||  __/\__ \
+#  \_|  |_/ \___| \__,_||_| \__,_|  \__, | \__,_| \___||_|   |_| \___||___/
+#                                      | |                                 
+#                                      |_|                                 
+#*/
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		/*	menu
+		______________________________________________________________
+
+			#soon{
+				display: none;
+			}
+
+			body, hover containers
+		______________________________________________________________
+
+			.secondContainer, .secondContainer .imgContainer{
+				height: 156px;
+			}
+
+			.secondContainer .imgContainer img {
+				max-width: 100%;
+				max-height: 100%;
+			}
+
+			.secondContainer .hoverContainer{
+				height: 156px;
+				margin-top: -156px;
+			}
+
+			 apartado de noticias mas vistas
+			.trending p{
+				font-size: 11px;
+			}
+
+			.news{
+				width: 100%;
+			}
+
+			.thumbnail a{
+				display: none; 
+			}*/
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		/*	slideshow
+		______________________________________________________________*/
+
+			#bannerContainer{
+				height: 500px;
+			}
+
+			.slideshow, .slideshow div, .carousel{
+				height: 500px;
+			}
+
+			.slideshow{
+				height: 100%;
+			}
+
+			.slideshow div{
+				width: 100%;
+				margin: 0 0 0 0;
+			}
+
+			 .carousel{
+			 	width: 100%;
+			 	margin: 0 0 0 0;
+			 }
+
+			.slide img{
+				height: auto;
+				width: auto;
+				max-width: 100%;
+				max-height: 500px;
+				min-height: 0;
+				min-width: 0;
+			}
+
+		/*
+
+		body
+		______________________________________________________________*/
+
+		.firstContainer, .firstContainer .imgContainer{
+			height: 394px;
+		}
+
+		.firstContainer .hoverContainer{
+			margin-top: -394px;
+			height: 394px;
+		}
+			
+		.thirdContainer{
+			height: 145px;
+		}
+
+		.thirdContainer .imgContainer{
+			height: 145px;
+		}
+
+		.thirdContainer .hoverContainer{
+			margin-top: -145px;
+			height: 145px;
+		}
+
+
+
+		#noticiasSecundarias h3{
+			font-size: 13px;
+		}
+
+		#noticiasSecundarias h4{
+			font-size: 11px;
+		}
+
+		#noticiasSecundarias p{
+			font-size: 11px;
+		}
+
+		#noticiasSecundarias a{
+			font-size: 11px;
+		}
+
+		/* HellowBlogPost.html */
+		#postsInteresantes h3{
+			font-size: 13px;
+		}
+
+		#postsInteresantes h4{
+			font-size: 11px;
+		}
+
+		#postsInteresantes p{
+			font-size: 11px;
+		}
+
+		#postsInteresantes a{
+			font-size: 11px;
+		}
+
+		#extras .post .hr{
+			margin-top: 10%;
+		}
+
+		/* Seccion.html */
+		#resultados p{
+			font-size: 12px;
+		}
+
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		/* items que se ocultan*/
+		#trendingSeccion, .three.columns, .widget, .publicidadContainer, #extras{
+			display: none;
+		}
+
+		/* body */
+		.container{
+			width: 100%;
+		}
+
+		/* slideshow */
+		#bannerContainer{
+			width: 90%;
+			height: 500px;
+			margin: 0 5% 50px 5%;
+		}
+
+		/* contenedor de las noticias principales*/
+		#noticiasPrincipales{
+			width: 100%;
+		}
+
+		/* articulo */
+		.post{
+			width: 40%;
+			margin: 0 5% 40px 5%;
+		}
+
+		.post img{
+			width: 100%;
+		}
+
+		/* contenedor de las noticias secundarias */
+		#columna1, #columna2, #columna3{
+			width: 26%;
+			margin: 0 2% 0 5%;
+		}
+
+		#noticiasSecundarias .publicidad{
+			margin-left: 5%;
+		}
+
+		/* contenedor del blogpost*/
+		#articleContainer{
+			width: 95%;
+			margin-left: 5%; 
+		}
+
+		#postsInteresantes{
+			margin-bottom: 25px;
+		}
+
+		#postsInteresantes h3{
+			font-size: 12px;
+		}
+
+		#postsInteresantes h4{
+			font-size: 11px;
+		}
+
+		#postsInteresantes p{
+			font-size: 10px;
+		}
+
+		#postsInteresantes a{
+			font-size: 10px;
+		}
+		/*resultados en secciones */
+		#resultados{
+			width: 100%;
+		}
+
+		#resultados .post{
+			width: 95%;
+			margin: 3% 2.5% 2% 2.5%;
+		}
+		#resultados .hr{
+			margin-top: 30%;
+		}
+		#paginacionContainer{
+			margin-top: 20px;
+		}
+
+		/* noticias mas vistas */
+		#trendingContainer{
+			width: 100%;
+		}
+		.trending{
+			width: 40%;
+			margin: 0 5% 0 5%;
+			float: right;
+		}
+
+		.thumbnail{
+			width: 95%;
+		}
+
+		/* footer */
+		#footer{
+			width: 100%;
+		}
+
+		#disclaimer{
+			width: 100%;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		/* Seccion.html*/
+		#resultados h3{
+			font-size: 13px;
+		}
+
+		#resultados h4{
+			font-size: 12px;
+		}
+
+		#resultados p{
+			font-size: 11px;
+		}
+	}
+
+	/* Mobile Portrait Size (iPod, iPhone, etc)*/
+	@media only screen and (max-width: 400px) {
+		/* ocultados*/
+		#noticiasSecundarias .publicidad, #musicaDeLaSemana {
+			display: none;
+		}
+
+
+		#noticiasMasVistas{
+			width: 90%;
+			margin-left: 10%;
+		}
+
+		/* Hellow.html */
+		#noticiasPrincipales .post{
+			margin-right: 5%;
+			margin-left: 5%;
+			width: 90%;
+		}
+
+		#noticiasSecundarias .post{
+			margin-right: 5%;
+			margin-left: 5%;
+			width: 40%;
+			float: left;
+		}
+
+		#columna1, #columna2, #columna3{
+			width: 50%;
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+		#columna1 .post, #columna2 .post, #columna3 .post{
+			width: 80%;
+			margin-right: 10%;
+			margin-left: 10%;
+		}
+
+		/* Blogpost.html */
+
+		#blogpost p{
+			font-size: 12px;
+		}
+
+		#postsInteresantes{
+			margin-left: 0;
+			padding-left: 0;
+			width: 100%;
+		}
+
+		#articleContainer{
+			margin-left: 3%;
+		}
+
+		/* Seccion.html */
+		#resultados .hr{
+			margin-top: 160px;
+			margin-bottom: 0;
+		}
+
+		#trendingContainer{
+			margin-top: 20px;
+		}
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

@@ -1,0 +1,975 @@
+/* 
+This file can customize the CSS style to properly fit new screen sizes with Media Queries
+
+HOME.HTML
+
+#  ______             _     _                 
+#  |  _  \           | |   | |                
+#  | | | |  ___  ___ | | __| |_   ___   _ __  
+#  | | | | / _ \/ __|| |/ /| __| / _ \ | '_ \ 
+#  | |/ / |  __/\__ \|   < | |_ | (_) || |_) |
+#  |___/   \___||___/|_|\_\ \__| \___/ | .__/ 
+#                                      | |    
+#                                      |_|    
+_______________________________________________________________________________________________________________________________ */
+
+	/*
+	#   __     ___    ___  _____              
+	#  /  |   /   |  /   ||  _  |             
+	#  `| |  / /| | / /| || |/' | _ __  __  __
+	#   | | / /_| |/ /_| ||  /| || '_ \ \ \/ /
+	#  _| |_\___  |\___  |\ |_/ /| |_) | >  < 
+	#  \___/    |_/    |_/ \___/ | .__/ /_/\_\
+	#                            | |          
+	#                            |_|          
+	#*/                                   
+	@media only screen and (max-width: 1599px){	}
+
+	/*
+	#   __   _____   ____  _____                    __  __   _____   ____   ____              
+	#  /  | |____ | / ___||  _  |                  / / /  | |____ | / ___| / ___|             
+	#  `| |     / // /___ | |/' | _ __  __  __    / /  `| |     / // /___ / /___  _ __  __  __
+	#   | |     \ \| ___ \|  /| || '_ \ \ \/ /   / /    | |     \ \| ___ \| ___ \| '_ \ \ \/ /
+	#  _| |_.___/ /| \_/ |\ |_/ /| |_) | >  <   / /    _| |_.___/ /| \_/ || \_/ || |_) | >  < 
+	#  \___/\____/ \_____/ \___/ | .__/ /_/\_\ /_/     \___/\____/ \_____/\_____/| .__/ /_/\_\
+	#                            | |                                             | |          
+	#                            |_|                                             |_|          
+	#*/
+	@media only screen and (min-width: 1360px) and (max-width: 1439px){	}
+
+	/*
+	#   __   _____  _____  _____              
+	#  /  | / __  \|  _  ||  _  |             
+	#  `| | `' / /' \ V / | |/' | _ __  __  __
+	#   | |   / /   / _ \ |  /| || '_ \ \ \/ /
+	#  _| |_./ /___| |_| |\ |_/ /| |_) | >  < 
+	#  \___/\_____/\_____/ \___/ | .__/ /_/\_\
+	#                            | |          
+	#                            |_|          
+	# */
+	@media only screen and (min-width: 1280px) and (max-width: 1359px){	
+
+	}
+
+	/*
+	#   __   __   _____  _____              
+	#  /  | /  | |  ___|/ __  \             
+	#  `| | `| | |___ \ `' / /' _ __  __  __
+	#   | |  | |     \ \  / /  | '_ \ \ \/ /
+	#  _| |__| |_/\__/ /./ /___| |_) | >  < 
+	#  \___/\___/\____/ \_____/| .__/ /_/\_\
+	#                          | |          
+	#                          |_|          
+	#*/
+	@media only screen and (min-width: 1152px) and (max-width: 1279px){
+		
+	}
+
+	/*
+	#   __   _____  _____    ___              
+	#  /  | |  _  |/ __  \  /   |             
+	#  `| | | |/' |`' / /' / /| | _ __  __  __
+	#   | | |  /| |  / /  / /_| || '_ \ \ \/ /
+	#  _| |_\ |_/ /./ /___\___  || |_) | >  < 
+	#  \___/ \___/ \_____/    |_/| .__/ /_/\_\
+	#                            | |          
+	#                            |_|          
+	#*/
+	@media only screen and (min-width: 1024px) and (max-width: 1151px){
+	}
+
+/*
+#  ___  ___        _      _  _                           _   _____         _      _        _        
+#  |  \/  |       | |    (_)| |                         | | |_   _|       | |    | |      | |       
+#  | .  . |  ___  | |__   _ | |  ___    __ _  _ __    __| |   | |    __ _ | |__  | |  ___ | |_  ___ 
+#  | |\/| | / _ \ | '_ \ | || | / _ \  / _` || '_ \  / _` |   | |   / _` || '_ \ | | / _ \| __|/ __|
+#  | |  | || (_) || |_) || || ||  __/ | (_| || | | || (_| |   | |  | (_| || |_) || ||  __/| |_ \__ \
+#  \_|  |_/ \___/ |_.__/ |_||_| \___|  \__,_||_| |_| \__,_|   \_/   \__,_||_.__/ |_| \___| \__||___/
+# 
+_______________________________________________________________________________________________________________________________ */
+
+	/*
+	#   _____   ____  _____              
+	#  |  _  | / ___||  _  |             
+	#  | |_| |/ /___ | |/' | _ __  __  __
+	#  \____ || ___ \|  /| || '_ \ \ \/ /
+	#  .___/ /| \_/ |\ |_/ /| |_) | >  < 
+	#  \____/ \_____/ \___/ | .__/ /_/\_\
+	#                       | |          
+	#                       |_|          
+	#*/
+	@media only screen and (min-width: 960px) and (max-width: 1023px){	}
+
+	/*
+	#   _____  _____  _____              
+	#  |  _  ||  _  ||  _  |             
+	#   \ V / | |/' || |/' | _ __  __  __
+	#   / _ \ |  /| ||  /| || '_ \ \ \/ /
+	#  | |_| |\ |_/ /\ |_/ /| |_) | >  < 
+	#  \_____/ \___/  \___/ | .__/ /_/\_\
+	#                       | |          
+	#                       |_|          
+	#*/
+	@media only screen and (min-width: 800px) and (max-width: 959px){
+
+		/*	menu
+		______________________________________________________________*/
+
+			#soon{
+				display: none;
+			}
+
+		/*	body, hover containers
+		______________________________________________________________*/
+
+			.secondContainer, .secondContainer .imgContainer{
+				height: 156px;
+			}
+
+			.secondContainer .imgContainer img {
+				max-width: 100%;
+				min-height: 100%;
+			}
+
+			.secondContainer .hoverContainer{
+				height: 156px;
+				margin-top: -156px;
+			}
+
+			.firstContainer, .firstContainer .imgContainer{
+				height: 394px;
+			}
+
+			.firstContainer .hoverContainer{
+				margin-top: -394px;
+				height: 394px;
+			}
+				
+			.thirdContainer{
+				height: 145px;
+			}
+
+			.thirdContainer .imgContainer{
+				height: 145px;
+			}
+
+			.thirdContainer .hoverContainer{
+				margin-top: -145px;
+				height: 145px;
+			}
+
+			.fourthContainer, .fourthContainer .imgContainer{
+				height: 128px;
+			}
+
+			.fourthContainer .hoverContainer{
+				height: 128px;
+				margin-top: -128px;
+			}
+
+		/*	slideshow
+		______________________________________________________________*/
+
+			#bannerContainer{
+				height: 500px;
+			}
+
+			.slideshow, .slideshow div, .carousel{
+				height: 500px;
+			}
+
+			.slideshow{
+				height: 100%;
+			}
+
+			.slideshow div{
+				width: 100%;
+				margin: 0 0 0 0;
+			}
+
+			 .carousel{
+			 	width: 100%;
+			 	margin: 0 0 0 0;
+			 }
+
+			.slide img{
+				height: auto;
+				width: auto;
+				max-width: 100%;
+				max-height: 500px;
+				min-height: 0;
+				min-width: 0;
+			}
+
+		/*	rest of the body content
+		______________________________________________________________*/
+
+			#noticiasSecundarias h3{
+				font-size: 13px;
+			}
+
+			#noticiasSecundarias h4{
+				font-size: 11px;
+			}
+
+			#noticiasSecundarias p{
+				font-size: 11px;
+			}
+
+			#noticiasSecundarias a{
+				font-size: 11px;
+			}
+
+			#postsInteresantes h3{
+				font-size: 13px;
+			}
+
+			#postsInteresantes h4{
+				font-size: 11px;
+			}
+
+			#postsInteresantes p{
+				font-size: 11px;
+			}
+
+			#postsInteresantes a{
+				font-size: 11px;
+			}
+
+			#extras .post .hr{
+				margin-top: 10%;
+			}
+
+			#resultados p{
+				font-size: 12px;
+			}
+
+			/* apartado de noticias mas vistas*/
+			.trending p{
+				font-size: 11px;
+			}
+
+			.news{
+				width: 100%;
+			}
+
+			.thumbnail a{
+				display: none; 
+			}
+	}
+
+	/*
+	#   ______  ____  _____              
+	#  |___  / / ___||  _  |             
+	#     / / / /___  \ V /  _ __  __  __
+	#    / /  | ___ \ / _ \ | '_ \ \ \/ /
+	#  ./ /   | \_/ || |_| || |_) | >  < 
+	#  \_/    \_____/\_____/| .__/ /_/\_\
+	#                       | |          
+	#                       |_|          
+	#*/
+	@media only screen and (min-width: 768px) and (max-width: 799px){
+
+		#soon{
+			display: none;
+		}
+
+		/* slideshow
+		____________________________________________________________*/
+
+			#bannerContainer{
+				height: 500px;
+			}
+
+			.slide img{
+				max-height: 500px;
+				min-height: 0;
+			}
+
+		/* body
+		____________________________________________________________*/
+
+		.firstContainer, .firstContainer .imgContainer{
+			height: 393px;
+		}
+
+		.firstContainer .hoverContainer{
+			height: 393px;
+			margin-top: -393px;
+		}
+
+		.secondContainer, .secondContainer .imgContainer{
+			height: 156px;
+		}
+
+		.secondContainer .imgContainer img{
+			max-width: 100%;
+			max-height: 100%
+		}
+
+		.secondContainer .hoverContainer{
+			height: 156px;
+			margin-top: -156px;
+		}
+
+		.thirdContainer, .thirdContainer .imgContainer{
+			height: 145px;
+		}
+
+		.thirdContainer .hoverContainer{
+			height: 145px;
+			margin-top: -145px;
+		}
+
+		.fourthContainer, .fourthContainer .imgContainer{
+				height: 128px;
+		}
+
+		.fourthContainer .hoverContainer{
+			height: 128px;
+			margin-top: -128px;
+		}
+
+		#resultados .hr{
+			margin-top: 210px;
+		}
+
+	}
+
+	/*
+	#   _ ______             _  ______               _                 _  _   
+	#  (_)| ___ \           | | | ___ \             | |               (_)| |  
+	#   _ | |_/ /  __ _   __| | | |_/ /  ___   _ __ | |_  _ __   __ _  _ | |_ 
+	#  | ||  __/  / _` | / _` | |  __/  / _ \ | '__|| __|| '__| / _` || || __|
+	#  | || |    | (_| || (_| | | |    | (_) || |   | |_ | |   | (_| || || |_ 
+	#  |_|\_|     \__,_| \__,_| \_|     \___/ |_|    \__||_|    \__,_||_| \__|
+	#
+	#
+	#	note: ipad display size for portrait is 750px */
+	@media only screen and (max-width: 767px){
+
+		/*	items que se ocultan
+		_____________________________________________________________________________________________*/
+
+			#trendingSeccion, .three.columns, .widget, .publicidadContainer, #extras{
+				display: none;
+			}
+
+			#soon{
+				display: none;
+			}
+
+			/* body */
+			.container{
+				width: 100%;
+			}
+
+			/* slideshow */
+			#bannerContainer{
+				width: 90%;
+				height: 500px;
+				margin: 0 5% 50px 5%;
+			}
+
+			.carousel{
+				width: 350% !important;
+			}
+
+		/*	contenedor de las noticias principales
+		______________________________________________________________________________________________*/
+
+			#noticiasPrincipales{
+				width: 100%;
+			}
+
+			/* articulo */
+			.post{
+				width: 40%;
+				margin: 0 5% 40px 5%;
+			}
+
+			.post img{
+				width: 100%;
+			}
+
+		/*	contenedor de las noticias secundarias
+		_______________________________________________________________________________________________*/
+
+			#columna1, #columna2, #columna3{
+				width: 26%;
+				margin: 0 2% 0 5%;
+			}
+
+			#noticiasSecundarias .publicidad{
+				margin-left: 5%;
+			}
+
+			/* contenedor del blogpost*/
+			#articleContainer{
+				width: 95%;
+				margin-left: 5%; 
+			}
+
+			#postsInteresantes{
+				margin-bottom: 25px;
+			}
+
+			#postsInteresantes h3{
+				font-size: 12px;
+			}
+
+			#postsInteresantes h4{
+				font-size: 11px;
+			}
+
+			#postsInteresantes p{
+				font-size: 10px;
+			}
+
+			#postsInteresantes a{
+				font-size: 10px;
+			}
+
+		/*	resultados en secciones
+		____________________________________________________________________________________________________*/
+
+			#resultados{
+				width: 100%;
+				margin-top: 0;
+			}
+
+			#resultados .post{
+				width: 95%;
+				margin: 3% 2.5% 2% 2.5%;
+			}
+			#resultados .hr{
+				margin-top: 30%;
+			}
+			#paginacionContainer{
+				margin-top: 20px;
+			}
+
+		/*	noticias mas vistas
+		_____________________________________________________________________________________________________*/
+
+			#trendingContainer{
+				width: 100%;
+			}
+			.trending{
+				width: 40%;
+				margin: 0 5% 0 5%;
+				float: right;
+			}
+
+			.thumbnail{
+				width: 95%;
+			}
+
+			/* footer */
+			#footer{
+				width: 100%;
+			}
+
+			#disclaimer{
+				width: 100%;
+			}
+
+		/*	slideshow
+		_______________________________________________________________________________________________________*/
+
+			#bannerContainer{
+				height: 500px;
+			}
+
+			.slideshow, .slideshow div, .carousel{
+				height: 500px;
+			}
+
+			.slideshow{
+				height: 100%;
+			}
+
+			.slideshow div{
+				width: 100%;
+				margin: 0 0 0 0;
+			}
+
+			 .carousel{
+			 	width: 100%;
+			 	margin: 0 0 0 0;
+			 }
+
+			.slide img{
+				height: auto;
+				width: auto;
+				max-width: 100%;
+				max-height: 500px;
+				min-height: 0;
+				min-width: 0;
+			}
+
+		/*	body, hover containers
+		________________________________________________________________________________________________________*/
+
+			.firstContainer{
+				height: 500px;
+			}
+
+			.firstContainer .imgContainer{
+				height: 500px;
+				width: 100%;
+			}
+
+			.firstContainer .imgContainer img{
+				height: auto;
+				width: auto;
+				max-height: 100%;
+				min-width: 100%;
+			}
+
+			.firstContainer .hoverContainer{
+				height: 500px;
+				margin-top: -500px;
+			}
+
+			.secondContainer, .secondContainer .imgContainer{
+				height: 200px;
+			}
+
+			.secondContainer .imgContainer img{
+				height: auto;
+				width: auto;
+				max-height: 100%;
+				min-width: 100%;
+			}
+
+			.secondContainer .hoverContainer{
+				height: 200px;
+				margin-top: -200px;
+			}
+
+			.thirdContainer, .thirdContainer .imgContainer{
+				height: 175px;
+			}
+
+			.thirdContainer .hoverContainer{
+				height: 175px;
+				margin-top: -175px;
+			}
+
+			.fourthContainer .imgContainer img{
+				min-height: 100%;
+				max-height: none;
+			}
+
+		/*	footer
+		______________________________________________________________________________________________________*/
+
+			#footer .two.columns{
+				width: 50%;
+				float: left;
+			}
+
+			#footer .two.columns img{
+				width: 5%;
+			}
+
+			#footer .hiddenD{
+				display: none;
+			}
+	}
+
+	/*
+	#    ____    ___  _____              
+	#   / ___|  /   ||  _  |             
+	#  / /___  / /| || |/' | _ __  __  __
+	#  | ___ \/ /_| ||  /| || '_ \ \ \/ /
+	#  | \_/ |\___  |\ |_/ /| |_) | >  < 
+	#  \_____/    |_/ \___/ | .__/ /_/\_\
+	#                       | |          
+	#                       |_|          
+	#*/
+	@media only screen and (min-width: 640px) and (max-width: 749px){
+
+		/*	slideshow
+		_____________________________________________________________*/
+
+			#bannerContainer{
+				height: 400px;
+			}
+
+			.slide img{
+				max-height: 400px;
+			}
+
+		/*	body, hover containers
+		_____________________________________________________________*/
+
+			.firstContainer, .firstContainer .imgContainer{
+				height: 441px;
+			}
+
+			.firstContainer .imgContainer img{
+				max-width: 100%;
+			}
+
+			.firstContainer .hoverContainer{
+				height: 441px;
+				margin-top: -441px;
+			}
+
+			.thirdContainer, .thirdContainer .imgContainer{
+				height: 150px;
+			}
+
+			.thirdContainer .hoverContainer{
+				height: 150px;
+				margin-top: -150px;
+			}
+	}
+
+
+	/*
+	#    ____  _____  _____              
+	#   / ___||  _  ||  _  |             
+	#  / /___ | |/' || |/' | _ __  __  __
+	#  | ___ \|  /| ||  /| || '_ \ \ \/ /
+	#  | \_/ |\ |_/ /\ |_/ /| |_) | >  < 
+	#  \_____/ \___/  \___/ | .__/ /_/\_\
+	#                       | |          
+	#                       |_|          
+	#*/
+	@media only screen and (min-width: 600px) and (max-width: 639px){
+		/*	slideshow
+		_____________________________________________________________*/
+
+			#bannerContainer{
+				height: 400px;
+			}
+
+			.slide img{
+				max-height: 400px;
+			}
+
+			.slides-next, .slides-prev{
+				padding: 0 1% 0 1%;
+			}
+
+		/*	body, hover containers
+		_____________________________________________________________*/
+
+			.firstContainer, .firstContainer .imgContainer{
+				height: 414px;
+			}
+
+			.firstContainer .imgContainer img{
+				max-width: 100%;
+			}
+
+			.firstContainer .hoverContainer{
+				height: 414px;
+				margin-top: -414px;
+			}
+
+			.thirdContainer, .thirdContainer .imgContainer{
+				height: 140px;
+			}
+
+			.thirdContainer .hoverContainer{
+				height: 140px;
+				margin-top: -140px;
+			}
+
+			#resultados .hr{
+				margin-top: 200px;
+				margin-bottom: 10px;
+			}
+
+			.fourthContainer, .fourthContainer .imgContainer{
+				height: 142px;
+			}
+
+			.fourthContainer .imgContainer img{
+				min-height: 0;
+			}
+
+			.fourthContainer .hoverContainer{
+				height: 142px;
+				margin-top: -142px;
+			}
+
+	}
+
+	/*
+	#     ___  _____  _____              
+	#    /   ||  _  ||  _  |             
+	#   / /| | \ V / | |/' | _ __  __  __
+	#  / /_| | / _ \ |  /| || '_ \ \ \/ /
+	#  \___  || |_| |\ |_/ /| |_) | >  < 
+	#      |_/\_____/ \___/ | .__/ /_/\_\
+	#                       | |          
+	#                       |_|          
+	#*/
+	@media only screen and (max-width: 599px){
+		.container{
+			width: 100%;
+		}
+
+		/*	slideshow
+		_____________________________________________*/
+
+			#bannerContainer{
+				height: 300px;
+			}
+
+			.slide img{
+				max-height: 300px;
+			}
+
+			.slides-next, .slides-prev{
+				padding: 0;
+			}
+
+		/*	body, hover containers
+		_____________________________________________*/
+
+			.firstContainer, .firstContainer .imgContainer{
+				height: 330px;	
+			}
+
+			.firstContainer .imgContainer img{
+				max-width: 100%;
+				min-width: 0;
+			}
+
+			.firstContainer .hoverContainer{
+				height: 330px;
+				margin-top: -330px;
+			}
+
+			.secondContainer, .secondContainer .imgContainer{
+				height: 132px;
+			}
+
+			.secondContainer .imgContainer img{
+				max-width: 100%;
+				min-width: 0;
+			}
+
+			.secondContainer .hoverContainer{
+				height: 132px;
+				margin-top: -132px;
+			}
+
+			.thirdContainer, .thirdContainer .imgContainer{
+				height: 112px
+			}
+
+			.thirdContainer .hoverContainer{
+				height: 112px;
+				margin-top: -112px;
+			}
+
+			.fourthContainer, .fourthContainer .imgContainer{
+				height: 114px;
+			}
+			.fourthContainer .hoverContainer{
+				height: 114px;
+				margin-top: -114px;
+			}
+
+			.fourthContainer .imgContainer img{
+				min-height: 0;
+			}
+
+			#resultados .hr{
+				margin-top: 240px;
+				margin-bottom: 10px;
+			}
+	}
+
+	/*
+	#     ___   ____  _____                                                                
+	#    /   | / ___||  _  |                                                               
+	#   / /| |/ /___  \ V /  _ __  __  __                                                  
+	#  / /_| || ___ \ / _ \ | '_ \ \ \/ /                                                  
+	#  \___  || \_/ || |_| || |_) | >  <                                                   
+	#      |_/\_____/\_____/| .__/ /_/\_\                                                  
+	#                       | |                                                            
+	#                       |_|                                                            
+	#   _ ______  _                           _                        _                                
+	#  (_)| ___ \| |                         | |                      | |                               
+	#   _ | |_/ /| |__    ___   _ __    ___  | |      __ _  _ __    __| | ___   ___   __ _  _ __    ___ 
+	#  | ||  __/ | '_ \  / _ \ | '_ \  / _ \ | |     / _` || '_ \  / _` |/ __| / __| / _` || '_ \  / _ \
+	#  | || |    | | | || (_) || | | ||  __/ | |____| (_| || | | || (_| |\__ \| (__ | (_| || |_) ||  __/
+	#  |_|\_|    |_| |_| \___/ |_| |_| \___| \_____/ \__,_||_| |_| \__,_||___/ \___| \__,_|| .__/  \___|
+	#                                                                                      | |          
+	#                                                                                      |_|          
+	#*/
+
+	@media only screen and (min-width: 468px) and (max-width: 479px){ 
+		/* body. hover containers
+		___________________________________________________________*/
+
+			.firstContainer, .firstContainer .imgContainer{
+				height: 323px;
+			}
+
+			.firstContainer .hoverContainer{
+				height: 323px;
+				margin-top: -323px;
+			}
+
+			.secondContainer, .secondContainer .imgContainer{
+				height: 126px;
+			}
+
+			.secondContainer .hoverContainer{
+				height: 126px;
+				margin-top: -126px;
+			}
+
+			.thirdContainer, .thirdContainer .imgContainer{
+				height: 110px;
+			}
+
+			.thirdContainer .hoverContainer{
+				height: 110px;
+				margin-top: -110px;
+			}
+	}
+
+	/*
+	#   _____   ____  _____              
+	#  |____ | / ___||  _  |             
+	#      / // /___ | |/' | _ __  __  __
+	#      \ \| ___ \|  /| || '_ \ \ \/ /
+	#  .___/ /| \_/ |\ |_/ /| |_) | >  < 
+	#  \____/ \_____/ \___/ | .__/ /_/\_\
+	#                       | |          
+	#                       |_|          
+	#*/
+	@media only screen and (max-width: 467px){ 
+		/* hidden elements
+		_________________________________________________________*/
+
+		#bannerContainer, #musicaDeLaSemana, #trendingContainer, .publicidad, #columna1{
+			display: none;
+		}
+
+		/* body
+		_________________________________________________________*/
+
+		.post{
+			width: 80%;
+			margin: 0 10% 50px 10%;
+		}
+
+		.firstContainer, .firstContainer .imgContainer{
+			height: 500px;
+		}
+
+		.firstContainer .imgContainer img{
+			max-width: 100%;
+			max-height: 100%;
+			width: auto;
+			height: auto;
+		}
+
+		.firstContainer .hoverContainer{
+			height: 500px;
+			margin-top: -500px;
+		}
+
+		.secondContainer, .secondContainer .imgContainer{
+			height: 195px;
+		}
+
+		.secondContainer .hoverContainer{
+			height: 195px;
+			margin-top: -195px;
+		}
+
+		.fourthContainer, .fourthContainer .imgContainer{
+			height: 84px;
+		}
+
+		.fourthContainer .hoverContainer{
+			height: 84px;
+			margin-top: -84px;
+		}
+
+		#noticiasSecundarias #columna2{
+			width: 40%;
+			margin: 0 0 0 10%;
+		}
+
+		#noticiasSecundarias #columna3{
+			width: 40%;
+			margin: 0 0 0 5%;
+		}
+
+		#postsInteresantes p{
+			display: none;
+		}
+
+		#resultados .hr{
+			margin-top: 275px;
+			margin-bottom: 10px;
+		}
+
+	}
+
+	/*
+	#   _____  _____  _____              
+	#  |____ |/ __  \|  _  |             
+	#      / /`' / /'| |/' | _ __  __  __
+	#      \ \  / /  |  /| || '_ \ \ \/ /
+	#  .___/ /./ /___\ |_/ /| |_) | >  < 
+	#  \____/ \_____/ \___/ | .__/ /_/\_\
+	#                       | |          
+	#                       |_|          
+	#*/
+	@media only screen and (min-width: 320px) and (max-width: 359px){
+		/* body
+		____________________________________________________________________*/
+
+			.firstContainer, .firstContainer .imgContainer{
+				height: 440px;
+			}
+
+			.firstContainer .hoverContainer{
+				height: 440px;
+				margin-top: -440px;
+			}
+
+			.secondContainer, .secondContainer .imgContainer{
+				height: 175px;
+			}
+
+			.secondContainer .hoverContainer{
+				height: 175px;
+				margin-top: -175px;
+			}
+
+			#postsInteresantes .post{
+				width: 23%;
+			}
+
+			.fourthContainer, .fourthContainer .imgContainer{
+				height: 76px;
+			}
+
+			.fourthContainer .hoverContainer{
+				height: 76px;
+				margin-top: -76px;
+			}
+
+		/* footer
+		____________________________________________________________________*/	
+
+			#footer .two.columns img{
+				width: 10%;
+			}	
+
+	}

@@ -1,0 +1,684 @@
+/*
+
+Fabritzio Villegas
+_________________________________________________________________________________________*/
+
+	body{
+		width: 100%;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
+
+/*
+
+SE DESIGNA A TOAS LAS TAGS DE TEXTO LA FUENTE HELVETICA
+_________________________________________________________________________________________*/
+	
+	p, a, ul, li, h1, h2, h3, h4, button, input{
+		font-family: Helvetica;
+		font-style: normal;
+	}
+
+/*
+
+BANNER SLIDESHOW
+_________________________________________________________________________________________*/
+
+	#bannerContainer{
+		height: 600px;
+	}
+
+/*
+
+PRIMER HOVER DE IMAGENES PRINCIPALES
+_________________________________________________________________________________________*/
+
+	.firstContainer{
+		width: 100%;
+		overflow: hidden;
+		height: 496px;
+	}
+
+	.firstContainer .imgContainer{
+		width: 100%;
+		height: 100%;
+	}
+
+	.firstContainer .imgContainer img{
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.firstContainer .hoverContainer{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		margin-top: -496px;
+		opacity: 0;
+	}
+
+	.firstContainer .hoverContainer:hover{
+		opacity: 1;
+		background-color: rgba(173,216,230,0.5);
+	}
+
+	.firstContainer .hoverContainer .micro{
+		width: 100%;
+		height: 50%;
+
+		position: relative;
+
+		font-family: Helvetica;
+		font-weight: bold;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	.firstContainer .hoverContainer .micro .titulo{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		text-transform: uppercase;
+	}
+
+/* 
+
+SEGUNDO HOVER PARA IMAGENES PRINCIPALES
+_________________________________________________________________________________________*/
+
+	.secondContainer{
+		width: 100%;
+		height: 190px;
+		overflow: hidden;
+	}
+
+	.secondContainer .imgContainer{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+
+	.secondContainer .imgContainer img{
+		width: 100%;
+		height: auto;
+		/*max-width: 100%;*/
+		max-height: 100%;
+		position: relative;
+		z-index: -1;
+	}
+
+	.secondContainer .hoverContainer{
+		width: 100%;
+		height: 100%;
+		margin-top: -190px;
+		overflow: hidden;
+		opacity: 0;
+		z-index: 1;
+	}
+
+	.secondContainer .hoverContainer:hover{
+		opacity: 1;
+		background-color: rgba(173,216,230,0.5);
+	}
+
+	.secondContainer .hoverContainer .micro{
+		width: 100%;
+		height: 50%;
+		position: relative;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+	}
+
+	.secondContainer .hoverContainer .micro .titulo{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		text-transform: uppercase;
+	}
+
+/* TERCER HOVER PARA IMAGENES PRINCIPALES */
+.thirdContainer{
+	width: 100%;
+	height: 185px;
+	overflow: hidden;
+}
+
+.thirdContainer .imgContainer{
+	width: 100%;
+	height: 100%;
+}
+
+.thirdContainer .imgContainer img{
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+.thirdContainer .hoverContainer{
+	width: 100%;
+	height: 100%;
+	margin-top: -185px;
+	position: relative;
+	opacity: 0;
+}
+
+.thirdContainer .hoverContainer:hover{
+	opacity: 1;
+	background-color: rgba(173,216,230,0.5);
+}
+
+.thirdContainer .hoverContainer .micro{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 0.75em;
+}
+
+.thirdContainer .hoverContainer .micro .titulo{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-transform: uppercase;
+}
+
+/*apartado para cada post*/
+.post{
+	width: 45%;
+	margin: 5% 5% 0 0;
+	float: left;
+}
+
+#postsInteresantes .post{
+	width: 20%;
+	margin: 5% 5% 0 0;
+}
+
+#postsInteresantes .post p{
+	width: 100%;
+}
+
+.post h3{
+	text-transform: uppercase;
+	margin: 5px 0 5px 0;
+}
+
+.post h4{
+	color: lightgrey;
+	margin: 0 0 0 0;
+}
+
+.post p{
+	font-size: 15px;
+	margin: 0 0 0 0;
+}
+
+.post a:link, .post a:visited{
+	font-weight:bold;
+	font-size: 15px;
+	color: #66A3D2;
+}
+
+.post a:hover, .post a:active{
+	color: #160E9F;
+}
+
+/* noticiasSecundarias */
+
+#noticiasSecundarias{
+	margin: 15px 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+}
+
+#columna1, #columna2{
+	width: 32%;
+	margin: 0 1% 0 0;
+	float: left;
+}
+
+#columna3{
+	width: 32%;
+	margin: 0 0 0 0;
+	float: left;
+}
+
+#noticiasSecundarias .post{
+	width: 90%;
+	margin: 0 0 15px 0;
+}
+
+
+#noticiasSecundarias .publicidad{
+	width: 50%;
+	margin: 0 0 0 1%;
+	float: left;
+}
+
+
+
+/* Noticas extras al fondo de la pantalla */
+
+/*
+
+*/
+
+.fourthContainer{
+	width: 25%;
+	height: 150px;
+	margin: 0;
+	float: left;
+	overflow: hidden;
+}
+
+.fourthContainer .imgContainer{
+	width: 100%;
+	height: 150px;
+}
+
+.fourthContainer .imgContainer img{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+.fourthContainer .hoverContainer{
+	width: 100%;
+	height: 100%;
+	margin-top: -150px;
+	position: relative;
+	opacity: 0;
+}
+
+.fourthContainer .hoverContainer:hover{
+	opacity: 1;
+	background-color: rgba(173,216,230,0.5);
+}
+
+.fourthContainer .hoverContainer .micro{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 0.75em;
+}
+
+.fourthContainer .hoverContainer .micro .titulo{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-transform: uppercase;
+}
+
+#extras .post{
+	width: 100%;
+}
+
+#extras .post section{
+	width: 65%;
+	height: 160px;
+	margin: 10px 0 0 30%;
+}
+
+#extras .post .hr{
+	width: 100%;
+	height: 1px;
+	margin: 20px 0 30px 0;
+	background-color: #ADD8E6;
+}
+
+/* widget */
+.widget{
+	margin-top: 10%;
+}
+/*
+#                          _                   _      _               _ 
+#                         (_)                 | |    | |             | |
+#   ___   ___   ___   ___  _   ___   _ __     | |__  | |_  _ __ ___  | |
+#  / __| / _ \ / __| / __|| | / _ \ | '_ \    | '_ \ | __|| '_ ` _ \ | |
+#  \__ \|  __/| (__ | (__ | || (_) || | | | _ | | | || |_ | | | | | || |
+#  |___/ \___| \___| \___||_| \___/ |_| |_|(_)|_| |_| \__||_| |_| |_||_|
+# 
+
+RESULTADOS DEL APARTADO DE SECCIONES
+_________________________________________________________________________________________*/
+
+	#resultados .post{
+		width: 95%;
+		height: 200px;
+		margin: 0;
+		padding: 2.5%;
+		color: black;
+	}
+
+	#resultados .post:hover, #resultados .post:active{
+		background-color: #EBF9F2;
+		color: black;
+	}
+
+	#resultados h3{
+		margin: 0 0 0 0;
+	}
+
+	#resultados .post section{
+		width: 70%;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		float: right;
+	}
+
+	#resultados .post .hr{
+		width: 100%;
+		height: 1px;
+		margin: 215px 0 0 0;
+		background-color: #ADD8E6;
+	}
+
+	#resultados, #trendingSeccion{
+		margin-top: 50px;
+	}
+
+	#paginacionContainer{
+		width: 40%;
+		margin: 0 0 0 0;
+		float: right;
+	}
+
+/* 
+
+APARTADO DE NOTICIAS MAS VISTAS
+_________________________________________________________________________________________*/
+.trending{
+	width: 100%;
+	margin: 11% 0 0 0;
+	padding: 0 0 2% 0;
+	background-color: #EBF9F2;
+}
+
+.trending h3{
+	text-align: center;
+	padding: 10% 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.hr{
+    height: 5px;
+	width: 90%;
+	margin: 0 5% 5% 5%;
+	background-color: #A5F493;
+}
+
+.thumbnail{
+	width: 100%;
+	margin: 0 0 10% 0;
+	padding: 0 0 0 0;
+}
+
+.news{
+	width: 85%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.thumbnail img{
+	width: 20%;
+	margin: 0 5% 0 5%;
+	float: left;
+}
+
+.thumbnail h5{
+	margin: 0 0 0 0;
+}
+
+.thumbnail p{
+	font-size: 12px;
+	margin: 0 0 0 0;
+}
+
+.thumbnail a:link, .thumbnail a:visited{
+	font-weight:bold;
+	font-size: 12px;
+	color: #66A3D2;
+}
+
+.thumbnail a:hover, .thumbnail a:active{
+	color: #160E9F;
+}
+
+.publicidadContainer{
+	margin-top: 10%;
+}
+
+.publicidadContainer img{
+	width: 50%;
+	margin: 0 25% 0 25%;
+}
+
+
+
+
+/*
+#   _      _                                   _       _      _               _ 
+#  | |    | |                                 | |     | |    | |             | |
+#  | |__  | |  ___    __ _  _ __    ___   ___ | |_    | |__  | |_  _ __ ___  | |
+#  | '_ \ | | / _ \  / _` || '_ \  / _ \ / __|| __|   | '_ \ | __|| '_ ` _ \ | |
+#  | |_) || || (_) || (_| || |_) || (_) |\__ \| |_  _ | | | || |_ | | | | | || |
+#  |_.__/ |_| \___/  \__, || .__/  \___/ |___/ \__|(_)|_| |_| \__||_| |_| |_||_|
+#                     __/ || |                                                  
+#                    |___/ |_|                                                  
+#
+
+ARTICULO / BLOGPOST
+_________________________________________________________________________________________*/
+
+	#blogpost{
+		margin: 3% 0 0 0;
+	}
+
+	#blogpostTrending{
+		margin-top: 3%;
+	}
+
+	#blogpost img{
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 100%; 
+	}
+
+	#blogpost h4{
+		color: #A6A5A3;
+		margin: 10px 0 10px 0;
+	}
+
+	#blogpost .hr{
+		width: 100%;
+		height: 1px;
+		margin: 0 0 0 0;
+		background-color: #ADD8E6;
+	}
+
+/*
+
+POSTS INTERESANTES
+_________________________________________________________________________________________*/
+
+	#postsInteresantes{
+		width: 95%;
+		margin: 10px 0 0 0;
+		padding: 2.5%;
+		background-color: #F3F5F5;
+	}
+
+	#postsInteresantes .post{
+		width: 23%;
+		margin: 0 0.5% 0 0.5%;
+		vertical-align: top;
+		background-color: #F3F5F5;
+		float: none;
+		display: inline-block;
+	}
+
+	#postsInteresantes .post img{
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	
+
+	#postsInteresantes .hr{
+		position: relative;
+		width: 100%;
+		height: 1px;
+		margin: 10px 0 10px 0;
+		background-color: #ADD8E6;
+	}
+
+	#postsInteresantes h4{
+		color: #ADD8E6;
+		margin: 0 0 5px 0;
+	}
+	/* placeholder para widget de comentarios */
+	#postsInteresantes input{
+		width: 98%;
+	}
+
+/*
+
+NOTICIAS ADICIONALES
+_________________________________________________________________________________________*/
+
+	#adicionales{
+		margin: 25px 0 0 0;
+	}
+
+	#adicionales .post{
+		width: 95%;
+		height: 200px;
+		margin: 0;
+		padding: 2.5%;
+		color: black;
+	}
+
+	#adicionales .post:hover, #adicionales .post:active{
+		background-color: #EBF9F2;
+		color: black;
+	}
+
+	#adicionales h3{
+		margin: 0 0 0 0;
+	}
+
+	#adicionales .post section{
+		width: 70%;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		float: right;
+	}
+
+	#adicionales .post .hr{
+		width: 100%;
+		height: 1px;
+		margin: 215px 0 0 0;
+		background-color: #ADD8E6;
+	}
+
+	
+
+/*
+#    __                _               
+#   / _|              | |              
+#  | |_   ___    ___  | |_   ___  _ __ 
+#  |  _| / _ \  / _ \ | __| / _ \| '__|
+#  | |  | (_) || (_) || |_ |  __/| |   
+#  |_|   \___/  \___/  \__| \___||_|   
+#
+_________________________________________________________________________________________*/
+
+	#footer{
+		background-color: #EEF9FF;
+		margin: 20px 0 0 0;
+	}
+
+	#footer p{
+		font-size: 1em;
+		color: #868C8F;
+		font-weight:bold;
+		text-align: none;
+	}
+
+	#footer .column{
+		width: 13.9%;
+		margin: 20px 0 0 0;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+
+
+	#footer input{
+		width: 80%;
+	}
+
+	#footer input:focus:required:invalid{
+		background-color: pink;
+
+	}
+
+	#footer input:required:valid{
+		border-color: transparent;
+	}
+
+	#footer button{
+
+		background-color: white;
+	}
+
+	.socialImg{
+		width: 10%;
+		height: auto;
+	}
+
+	#footer a:link, #footer a:visited{
+		font-size: 1em;
+		color: #868C8F;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	#footer a:hover, #footer a:active{
+		color: #969DA1;
+		text-decoration: underline;
+	}
+
+	#disclaimer p{
+		font-size: 8px;
+		text-align: center;
+	}
+
+	.txtFoot{
+		margin-top: 0;
+	}
+
+
+
+/*
+Twitter designed by aguycalledgary from the Noun Project
+Video Player designed by Mourad Mokrane from the Noun Project
+Plus designed by Tobias Klepp from the Noun Project
+*/

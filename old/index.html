@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HellowBlog</title>
+	<meta name="description" content="Homepage del blog de Hellow">
+	<meta name="author" content="Fabritzio Villegas">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS -->
+	<link href="Media/CSS/style.css" rel="stylesheet">
+	<link href="Media/CSS/menuStyle.css" rel="stylesheet">
+	<link href="Media/CSS/slideShowStyle.css" rel="stylesheet">
+	<link href="Media/CSS/slideshow.css" rel="stylesheet">
+	<link href="Media/CSS/skeleton.css" rel="stylesheet">
+	<link href="Media/CSS/responsive-layout.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+
+		<!-- header.php -->
+		<header id="leMenu" class="sixteen columns">
+				<h1 id="menuTitle">Hellow</h1>
+				<image id="logo" src="Media/Images/LogoHellow.svg" align="center">
+				<!-- menu global-->
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-item "> <a id="inicio" class="selected" href="#">inicio</a></li>
+						<li class="nav-item "> <a id="musica" href="seccion.html">música</a></li>
+						<li class="nav-item "> <a id="moda" href="#">moda</a></li>
+						<li class="nav-item "> <a id="trends" href="#">trends</a></li>
+						<li class="nav-item "> <a id="design" href="#">design</a></li>
+						<li class="nav-item "> <a id="soon" href="#">coming soon</a></li>
+					</ul>
+				</nav>
+		</header>
+		<!-- end of header.php -->
+		<script type="text/javascript" src="Media/JS/menu.js"></script>
+		<!-- body.php -->
+		<div id="bannerContainer" class="sixteen columns">
+				<div class="slideshow" data-transition="scroll" data-loop="true" data-pagination="false" skip="true">
+					<ul class="carousel">
+						<li class="slide">
+							<img src="Media/Images/bambi.jpg" alt=""  />
+							<h1>bambi northwood-blyth</h1>
+							<div class="hr"></div>
+							<h4>read the article</h4>
+						</li>
+						<li class="slide">
+							<img src="Media/Images/bambi2.jpg" alt="" />
+							<h1>bambi northwood-blyth</h1>
+							<div class="hr"></div>
+							<h4>read the article</h4>
+						</li>
+						<li class="slide">
+							<img src="Media/Images/bambi3.jpg" alt="" />
+							<h1>bambi northwood-blyth</h1>
+							<div class="hr"></div>
+							<h4>read the article</h4>
+						</li>
+					</ul>
+				</div>
+			
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="Media/JS/slideshow.js"></script>
+		<script>
+			$(function() {
+				// Create slideshow instances
+				var $s = $('.slideshow').slides();
+
+				// Access an instance API
+				var api = $s.eq(0).data('slides');
+
+				// Transition select
+				$('select[name=transition]').on('change', function() {
+					api.redraw( this.value );
+				});
+			});
+		</script>
+
+		<div id="noticiasPrincipales" class="eleven columns">
+			<article class="post">
+				<div class="firstContainer">
+					<div class="imgContainer">
+						<img src="Media/Images/andy.jpg">						
+					</div>
+					<div class="hoverContainer">
+						<div class="micro">
+							<span class="titulo">Andy Torres</span>
+						</div>
+						<div class="micro">Moda/Streetstyle/Blogger</div>
+					</div>
+				</div>
+				<h3>Andy Torres</h3>
+				<h4>Septiembre 20, 2014</h4>
+				<p>As hit oout at critics who have suggested she has been sexually involded with her male counterparts in order to further carrer. tejais dsajdsjaui dsajidusa dshauidhsai iaeisdioas dsadiusha dsahdusga wheaudusaduisagdusadisahu
+				<a href="http://www.google.com">Ver mas.</a>
+				</p>
+			</article>
+			<article class="post">
+				
+				<div class="secondContainer">
+					<div class="imgContainer">
+						<img src="Media/Images/iggy.jpg">				
+					</div>
+					<div class="hoverContainer">
+						<div class="micro">
+							<span class="titulo">Andy Torres</span>
+						</div>
+						<div class="micro">Moda/Streetstyle/Blogger</div>
+					</div>
+				</div>
+				<h3>Iggy Azaelia</h3>
+				<h4>Septiembre 20, 2014</h4>
+				<p>As hit oout at critics who have suggested she has been sexually involded with her male counterparts in order to further carrer.
+				<a href="http://www.google.com">Ver mas.</a>
+				</p>
+			</article>
+			<article class="post">
+				<div class="secondContainer">
+					<div class="imgContainer">
+						<img src="Media/Images/prince.jpg">				
+					</div>
+					<div class="hoverContainer">
+						<div class="micro">
+							<span class="titulo">Andy Torres</span>
+						</div>
+						<div class="micro">Moda/Streetstyle/Blogger</div>
+					</div>
+				</div>
+				<h3>Prince Pelayo</h3>
+				<h4>Septiembre 20, 2014</h4>
+				<p>As hit oout at critics who have suggested she has been sexually involded with her male counterparts in order to further carrer.
+				<a href="http://www.google.com">Ver mas.</a>
+				</p>
+			</article>
+		<div id="noticiasSecundarias" class="eleven columns">
+			<!-- cada seccion debera contener 3 articulos -->
+			<div id="columna1">
+				<article class="post">
+					<div class="thirdContainer">
+						<div class="imgContainer">
+							<img src="Media/Images/kanye.jpg">				
+						</div>
+						<div class="hoverContainer">
+							<div class="micro">
+								<span class="titulo">Andy Torres</span>
+							</div>
+							<div class="micro">Moda/Streetstyle/Blogger</div>
+						</div>
+					</div>
+					<h3>KAnye West 1</h3>
+					<h4>Septiembre 20, 2014</h4>
+					<p>er to further carreer right?
+					<a href="http://www.google.com">Ver mas.</a>
+					</p>
+				</article>
+				<article class="post">
+					<div class="thirdContainer">
+						<div class="imgContainer">
+							<img src="Media/Images/kanye.jpg">				
+						</div>
+						<div class="hoverContainer">
+							<div class="micro">
+								<span class="titulo">Andy Torres</span>
+							</div>
+							<div class="micro">Moda/Streetstyle/Blogger</div>
+						</div>
+					</div>
+					<h3>KAnye West 2</h3>
+					<h4>Septiembre 20, 2014</h4>
+					<p>er to further carreer right?
+					<a href="http://www.google.com">Ver mas.</a>
+					</p>
+				</article>
+				<article class="post">
+					<div class="thirdContainer">
+						<div class="imgContainer">
+							<img src="Media/Images/kanye.jpg">				
+						</div>
+						<div class="hoverContainer">
+							<div class="micro">
+								<span class="titulo">Andy Torres</span>
+							</div>
+							<div class="micro">Moda/Streetstyle/Blogger</div>
+						</div>
+					</div>
+					<h3>Kanye West 3</h3>
+					<h4>Septiembre 20, 2014</h4>
+					<p>er to further carreer right?
+					<a href="http://www.google.com">Ver mas.</a>
+					</p>
+				</article>
+			</div>
+			<div id="columna2">
+				<article class="post">
+					<div class="thirdContainer">
+						<div class="imgContainer">
+							<img src="Media/Images/lana.jpg">				
+						</div>
+						<div class="hoverContainer">
+							<div class="micro">
+								<span class="titulo">Andy Torres</span>
+							</div>
+							<div class="micro">Moda/Streetstyle/Blogger</div>
+						</div>
+					</div>
+					<h3>Lana del rey</h3>
+					<h4>Septiembre 20, 2014</h4>
+					<p>er to further carreer right?
+					<a href="http://www.google.com">Ver mas.</a>
+					</p>
+				</article>
+				<article class="post">
+					<div class="thirdContainer">
+						<div class="imgContainer">
+							<img src="Media/Images/lana.jpg">				
+						</div>
+						<div class="hoverContainer">
+							<div class="micro">
+								<span class="titulo">Andy Torres</span>
+							</div>
+							<div class="micro">Moda/Streetstyle/Blogger</div>
+						</div>
+					</div>
+					<h3>Lana del rey</h3>
+					<h4>Septiembre 20, 2014</h4>
+					<p>er to further carreer right?
+					<a href="http://www.google.com">Ver mas.</a>
+					</p>
+				</article>
+			</div>
+			<div  id="columna3">
+				<article class="post">
+					<div class="thirdContainer">
+						<div class="imgContainer">
+							<img src="Media/Images/sky.jpg">				
+						</div>
+						<div class="hoverContainer">
+							<div class="micro">
+								<span class="titulo">Andy Torres</span>
+							</div>
+							<div class="micro">Moda/Streetstyle/Blogger</div>
+						</div>
+					</div>
+					<h3>Sky Ferreira</h3>
+					<h4>Septiembre 20, 2014</h4>
+					<p>er to further carreer right?
+					<a href="http://www.google.com">Ver mas.</a>
+					</p>
+				</article>
+				<article class="post">
+					<div class="thirdContainer">
+						<div class="imgContainer">
+							<img src="Media/Images/sky.jpg">				
+						</div>
+						<div class="hoverContainer">
+							<div class="micro">
+								<span class="titulo">Andy Torres</span>
+							</div>
+							<div class="micro">Moda/Streetstyle/Blogger</div>
+						</div>
+					</div>
+					<h3>Sky Ferreira</h3>
+					<h4>Septiembre 20, 2014</h4>
+					<p>er to further carreer right?
+					<a href="http://www.google.com">Ver mas.</a>
+					</p>
+				</article>
+			</div>
+			<article class="publicidad">
+				<img src="Media/Images/bodysuit.jpg">
+				<h3>Bodysuits</h3>
+			</article>
+		</div>
+			
+		</div>
+
+		<!-- container de lo trending -->
+		<div id="trendingContainer" class="five columns">
+			<article  id="noticiasMasVistas" class="trending"> <!-- noticias mas vistas -->
+				<h3>Noticias mas vistas</h3>
+				<div class="hr"></div>
+				<article class="thumbnail">
+					<img src="Media/Images/thumb1.jpg">
+					<div class="news">
+						<h5>marc jacobs</h5>
+						<p>
+						have suggested she has been sexually further carrer.
+						<a href="http://www.google.com">Ver mas.</a>
+						</p>
+					</div>
+					
+				</article>
+				<article class="thumbnail">
+					<img src="Media/Images/thumb2.jpg">
+					<div class="news">
+						<h5>marc jacobs</h5>
+						<p>
+						have suggested she has been sexually further carrer.
+						<a href="http://www.google.com">Ver mas.</a>
+						</p>
+					</div>
+					
+				</article>
+				<article class="thumbnail">
+					<img src="Media/Images/thumb3.jpg">
+					<div class="news">
+						<h5>marc jacobs</h5>
+						<p>
+						have suggested she has been sexually further carrer.
+						<a href="http://www.google.com">Ver mas.</a>
+						</p>
+					</div>
+				</article>
+			</article>
+
+			<article id="musicaDeLaSemana" class="trending"> <!-- musica de la semana -->
+				<h3>Musica de la semana</h3>
+				<div class="hr"></div>
+				<article class="thumbnail">
+					<img src="Media/Images/thumb1.jpg">
+					<div class="news">
+						<h5>marc jacobs</h5>
+						<p>
+						have suggested she has been sexually further carrer.
+						<a href="http://www.google.com">Ver mas.</a>
+						</p>
+					</div>
+					
+				</article>
+				<article class="thumbnail">
+					<img src="Media/Images/thumb2.jpg">
+					<div class="news">
+						<h5>marc jacobs</h5>
+						<p>
+						have suggested she has been sexually further carrer.
+						<a href="http://www.google.com">Ver mas.</a>
+						</p>
+					</div>
+					
+				</article>
+				<article class="thumbnail">
+					<img src="Media/Images/thumb3.jpg">
+					<div class="news">
+						<h5>marc jacobs</h5>
+						<p>
+						have suggested she has been sexually further carrer.
+						<a href="http://www.google.com">Ver mas.</a>
+						</p>
+					</div>
+				</article>
+			</article>
+
+			<section class="widget">
+				<img src="Media/Images/widgetFace.jpg">
+			</section>
+
+			<article class="publicidadContainer">
+				<img src="Media/Images/faye.jpg">
+			</article>
+		</div>
+		<!-- end of body.php -->
+
+		<!-- footer -->
+		<footer id="footer" class="sixteen columns">
+			<section class="two columns">
+				<a href="#">Inicio</a>
+			</section>
+			<section class="two columns">
+				<a href="#">Música</a>
+			</section>
+			<section class="two columns">
+				<a href="#">Moda</a>
+			</section>
+			<section class="two columns">
+				<a href="#">Trends</a>
+			</section>
+			<section class="two columns">
+				<a href="#">Design</a>
+			</section>
+			<section class="three columns">
+				<p class="txtFoot">Suscríbete</p>
+				<input type="email" name="emailSuscripcion" placeholder="usuario@correo.com" required>
+				<button type="submit">Enviar</button>
+			</section>
+			<section class="two columns">
+				<p class="txtFoot">Síguenos en</p>
+				<img class="social" src="Media/Images/Icons/Facebook/icon_facebook.png">
+				<img class="social" src="Media/Images/Icons/Twitter/icon_twitter.png">
+				<img class="social" src="Media/Images/Icons/Youtube/icon_youtube.png">
+			</section>
+
+			<section id="disclaimer" class="sixteen columns">
+				<p>c 2006 - 2014 Hellow. Todos los derechos reservados. Design By H/AC</p>
+				<p class="hiddenD">Twitter designed by aguycalledgary from the Noun Project</p>
+				<p class="hiddenD">Video Player designed by Mourad Mokrane from the Noun Project</p>
+				<p class="hiddenD">Plus designed by Tobias Klepp from the Noun Project</p>
+			</section>
+		</footer>
+		<!-- end of footer.php -->
+
+	</div><!-- container -->
+</body>
+</html>

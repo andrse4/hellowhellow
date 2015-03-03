@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HellowHellow</title>
+    <meta name="description" content="Homepage del blog de Hellow">
+    <meta name="author" content="Fabritzio Villegas">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <script src="jquery/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="jquery/SlickNav-master/slicknav.css" />
+    <script src="jquery/SlickNav-master/jquery.slicknav.min.js"></script>
+
+
+  </head>
+  <body>
+    <h1>Test</h1>
+    <ul id="menu">
+    	<li><a href="#">item 1</a></li>
+    	<li><a href="#">item 2</a></li>
+    	<li><a href="#">item 3</a></li>
+    	<li><a href="#">item 4</a></li>
+    </ul>
+<script>
+$(function(){
+		$('#menu').slicknav();
+	});
+
+$('#menu').slicknav({
+		appendTo:'#menu'
+});
+</script>
+  </body>
+</html>
