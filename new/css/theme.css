@@ -1,6 +1,11 @@
 /* Landing
 ==================================================================== */
+body{
+  font-family: 'Helvetica', sans-serif !important;
+  margin: 0 !important;
+}
 
+/* header.php */
 #hellowMenu nav{
   margin-top: 25px;
 }
@@ -43,3 +48,209 @@
 #trends:hover { background-color: #FE2A63; }
 
 #design:hover { background-color: #B0D7EE; }
+
+
+/* carousel.php */
+
+#carousel{
+  z-index: 1;
+}
+
+.carouselImage{
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+#prev{
+  top: 45%;
+  height: 55px;
+  margin: 0;
+  line-height: 55px;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  z-index: 2;
+  font-size: 3em;
+  color: #B9FEAB;
+  background-color: white;
+  border: none;
+  border-radius: 0px;
+}
+
+#next{
+  right: 0;
+  top: 45%;
+  margin: 0;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  z-index: 2;
+  font-size: 3em;
+  color: #B9FEAB;
+  background-color: white;
+  border: none;
+  border-radius: 0px;
+}
+
+.carouselTitle{
+  width: 380px;
+  margin: 0 0 0 35px;
+  bottom: 80px;
+  color: #B9FEAB;
+  position: absolute;
+  z-index: 2;
+  font-weight: bolder;
+}
+
+.carouselHR{
+  position: absolute;
+  width: 380px;
+  margin: 0 0 0 35px;
+  margin-left: 35px;
+  height: 1px;
+  bottom: 80px;
+  border: none;
+  border-bottom: 5px solid white;
+}
+
+.carouselLink{
+  width: 380px;
+  margin: 0 0 0 35px;
+  bottom: 50px;
+  color: #FFFFFF;
+  position: absolute;
+  z-index: 2;
+  font-weight: bolder;
+  font-size: 1.25em;
+}
+
+.slick-prev, .slick-next{
+  display: none !important;
+}
+
+/* featured.php  includes sidebar */
+
+#hellowFeatured{
+  margin-top: 25px;
+}
+
+.featuredPost{
+  width: 45%;
+  margin-right: 5%;
+  margin-bottom: 25px;
+  float: left;
+}
+
+.featuredImage{
+  width: 100%;
+  height: auto;
+}
+
+.featuredPost h3{
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.featuredPost h4{
+  margin: 0;
+  font-size: 1.2em;
+  color: lightgrey;
+}
+
+.featuredPost p{
+  margin: 0;
+}
+
+.sidebar{
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: #EBF9F2;
+  overflow: hidden;
+}
+
+.sidebarTitle{
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.sidebarHR{
+  height: 1px;
+  margin: 0 0 10px 0;
+  border: none;
+  border-bottom: 5px solid #A5F493
+}
+
+.sidebarPost{
+  overflow: hidden;
+}
+
+.sidebarPost .sidebarImage, .sidebar h5, .sidebar p, .sidebar a{
+  float: left;
+}
+
+.sidebarImage{
+  width: 25%;
+  padding: 2.5%;
+  margin: 0 0 0 0;
+  height: auto;
+}
+
+.sidebar h5{
+  font-size: 0.9em;
+  font-weight: bold;
+  width: 69%;
+  margin: 0 0 0 1%;
+}
+
+.sidebar p{
+  width: 69%;
+  font-size: 0.8em;
+  margin: 0 0 0 1%;
+}
+
+.sidebar a{
+  width: 69%;
+  font-size: 0.8em;
+  margin: 0 0 0 1%;
+}
+
+/* topPosts.php */
+.topPost{
+  width: 29%;
+  margin-right: 4%;
+  float: left;
+}
+
+.topPost img{
+  width: 100%;
+  height: auto;
+}
+
+.topPost h3{
+  font-size: 1.5em;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.topPost h4{
+  font-size: 1.1em;
+  margin: 0;
+  color: lightgrey;
+  font-weight: bold;
+}
+
+.topPost p{
+  margin : 0;
+}
+
+/* footer.php */
+
+footer{
+  background-color: #B9FEAB;
+}
