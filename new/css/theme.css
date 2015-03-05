@@ -279,3 +279,57 @@ footer{
   width: 25px;
   height: auto;
 }
+
+/* results.php */
+
+.imgPost{
+  width: auto;
+  height: 150px;
+  float: left;
+}
+
+.resultPost{
+  width: 95%;
+  padding: 2.5%;
+  margin: 0;
+  height: 200px;
+  float: left;
+}
+
+.resultText{
+  width: 70%;
+  float: right;
+  color: black;
+  display: block;
+}
+
+.resultText h3{
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.resultText h4{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 0 0;
+  color: lightgrey;
+}
+
+.resultText p{
+  margin: 0 0 0 0;
+  font-size: 12px;
+  line-height: 124%;
+}
+
+.resultPost hr{
+  height: 1px;
+  margin-top: 215px;
+  background-color: lightblue;
+  width: 100%;
+}
+
+.resultS{
+  margin-top: 50px;
+}
