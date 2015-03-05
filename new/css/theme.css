@@ -6,6 +6,10 @@ body{
 }
 
 /* header.php */
+#hellowMenu{
+  margin-bottom: 15px;
+}
+
 #hellowMenu nav{
   margin-top: 25px;
 }
@@ -51,7 +55,6 @@ body{
 
 
 /* carousel.php */
-
 #carousel{
   z-index: 1;
 }
@@ -252,5 +255,27 @@ body{
 /* footer.php */
 
 footer{
-  background-color: #B9FEAB;
+  height: 100px;
+  margin-top: 50px;
+  background-color: #EBF9F2;
+}
+
+.footerLink{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footerLink a{
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.icons{
+  float: left;
+}
+
+.socialIcon{
+  width: 25px;
+  height: auto;
 }
