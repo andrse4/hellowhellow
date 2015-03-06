@@ -283,17 +283,47 @@ footer{
 /* results.php */
 
 .imgPost{
-  width: auto;
-  height: 150px;
+
   float: left;
+  overflow: hidden;
+  margin: 0 0 0 0;
+  width: 27%;
+  float: left;
+}
+
+.imgPost img{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+
+
+.imgPost p:hover{
+  opacity: 0.5;
+}
+
+.imgPost p {
+  font-size: 100%;
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+  z-index: -1;
+  top: 0px;
+  height: 50%;
+  opacity: 0;
 }
 
 .resultPost{
   width: 95%;
   padding: 2.5%;
-  margin: 0;
+  margin: 0 0 10px 0;
   height: 200px;
   float: left;
+}
+
+.resultPost:hover{
+  background-color: #EBF9F2;
 }
 
 .resultText{
