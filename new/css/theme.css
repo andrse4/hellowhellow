@@ -283,35 +283,36 @@ footer{
 /* results.php */
 
 .imgPost{
-
   float: left;
-  overflow: hidden;
   margin: 0 0 0 0;
   width: 27%;
-  float: left;
+  position: relative;
+  max-width: 100%;
 }
 
 .imgPost img{
   width: 100%;
   height: 100%;
   float: left;
+  display: block;
 }
 
-
-
-.imgPost p:hover{
-  opacity: 0.5;
+.imgPost .txt:hover{
+  opacity: 0.8;
+  background-color: #EBF9F2;
+  color: black;
+  font-weight: bold;
 }
 
-.imgPost p {
-  font-size: 100%;
+.imgPost .txt {
   position: absolute;
-  vertical-align: middle;
   text-align: center;
-  z-index: -1;
-  top: 0px;
-  height: 50%;
+  font-size: 0.5vw;
+  height: 100%;
+  width: 100%;
   opacity: 0;
+  line-height: 700%;
+  text-transform: uppercase;
 }
 
 .resultPost{
