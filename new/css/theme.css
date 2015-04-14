@@ -8,6 +8,11 @@ body{
 /* header.php */
 #hellowMenu{
   margin-bottom: 15px;
+  position:fixed;
+  z-index: 100;
+  margin-left: 24.8%;
+  background-color: white;
+  width: 100%;
 }
 
 #hellowMenu nav{
@@ -56,6 +61,7 @@ body{
 
 /* carousel.php */
 #carousel{
+  margin-top: 200px;
   z-index: 1;
 }
 
@@ -66,7 +72,7 @@ body{
 }
 
 #prev{
-  top: 45%;
+  top: 58%;
   height: 55px;
   margin: 0;
   line-height: 55px;
@@ -82,7 +88,7 @@ body{
 
 #next{
   right: 0;
-  top: 45%;
+  top: 58%;
   margin: 0;
   height: 55px;
   line-height: 55px;
@@ -176,7 +182,6 @@ body{
 
 .sidebarTitle{
   font-size: 1.5em;
-  font-weight: bold;
   text-align: center;
   margin: 0;
 }
@@ -190,6 +195,7 @@ body{
 
 .sidebarPost{
   overflow: hidden;
+  margin-top: 15px;
 }
 
 .sidebarPost .sidebarImage, .sidebar h5, .sidebar p, .sidebar a{
@@ -256,7 +262,7 @@ body{
 
 footer{
   height: 100px;
-  margin-top: 50px;
+  margin-top: 100px;
   background-color: #EBF9F2;
 }
 
@@ -320,7 +326,8 @@ footer{
   padding: 2.5%;
   margin: 0 0 10px 0;
   height: 200px;
-  float: left;
+  float: left;  
+  margin-top: 200px;
 }
 
 .resultPost:hover{
