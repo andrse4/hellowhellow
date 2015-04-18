@@ -31,6 +31,7 @@ body{
 
 #headerLinks{
   list-style: none;
+  padding-left:5%;
 }
 
 #headerLinks li{
@@ -266,7 +267,7 @@ body{
 /* footer.php */
 
 footer{
-  height: 100px;
+  height: 150px;
   margin-top: 100px;
   background-color: #EBF9F2;
 }
@@ -282,16 +283,112 @@ footer{
   font-weight: bold;
 }
 
-.icons{
-  float: left;
-}
-
 .socialIcon{
   width: 25px;
   height: auto;
 }
 
+#sub{
+  min-width:80%;
+  float:right;
+  text-align:right;
+}
+
+#subB{
+  float:left;
+  text-align:left;
+  background-color: #C6DAE5;
+}
+
+#subB:hover{
+  background-color: #94B5C6;
+}
+
+/* normal post */
+#hellowPost{
+}
+
+.normalPost{
+  margin-top:200px;
+}
+
+.normalTitle{
+
+}
+
+.normalImage{
+  width: 100%;
+  height: auto;
+}
+
+.normalHR{
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid #ADD8E6;
+}
+
+/* comments section */
+.comments{
+  width: 95%;
+  padding: 2.5%;
+  background-color: #F3F5F5;
+  margin-bottom: 25px;
+}
+
+
+.commentsTitle{
+  color: #ADD8E6;
+  font-size: 1.5em;
+}
+
+.commentsSubtitle{
+  color: #ADD8E6;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.commentsPlaceholder{
+  width: 100%;
+}
+
+.commentsHR{
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid #ADD8E6;
+  margin: 10px 0;
+}
+
+.related{
+  width: 24%;
+  display: inline-block;
+}
+
+.relatedImage{
+  width: 100%;
+  height: auto;
+}
+
+.relatedTitle{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.relatedDate{
+  margin: 0;
+  font-size: 1em;
+  color: #ADD8E6;
+  font-weight: bold;
+}
+
+.relatedText{
+  margin: 0;
+}
+
 /* results.php */
+
 
 .imgPost{
   float: left;
@@ -332,7 +429,6 @@ footer{
   margin: 0 0 10px 0;
   height: 200px;
   float: left;
-  margin-top: 200px;
 }
 
 .resultPost:hover{
@@ -373,6 +469,10 @@ footer{
   width: 100%;
 }
 
-.resultS{
-  margin-top: 50px;
+#blogpost{
+  margin-top:200px;
+}
+
+#secTren{
+  margin-top:200px;
 }

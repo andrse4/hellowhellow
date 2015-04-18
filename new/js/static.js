@@ -23,7 +23,7 @@ $(document).ready(function() {
             if($(window).scrollTop() > topDistance){
               $('#logo').css({'height': '50'});
               $('#logo').css({'margin-top': '10px'});
-              $('#hellowMenu').css({'height': '140'});
+              $('#hellowMenu').css({'height': '132'});
             }else{
                 $('#logo').css({'height': '90'});
                 $('#logo').css({'margin-top': '5px'});
