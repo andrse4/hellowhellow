@@ -8,19 +8,30 @@ body{
 /* header.php */
 #hellowMenu{
   margin-bottom: 15px;
+  position: fixed;
+  padding: 0% 10%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 100;
+  background-color: white;
+  min-width: 100%;
+  height: 180px;
 }
 
 #hellowMenu nav{
   margin-top: 25px;
+  margin-left: 8%;
 }
 
 #logo{
   width: 100%;
   height: 90px;
+  margin-top:5px;
 }
 
 #headerLinks{
   list-style: none;
+  padding-left:5%;
 }
 
 #headerLinks li{
@@ -31,7 +42,7 @@ body{
 
 #headerLinks a:link, #headerLinks a:visited {
   width: 100%;
-  padding: 20px 30px;
+  padding: 20px 20%;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -56,6 +67,7 @@ body{
 
 /* carousel.php */
 #carousel{
+  margin-top: 200px;
   z-index: 1;
 }
 
@@ -66,7 +78,7 @@ body{
 }
 
 #prev{
-  top: 45%;
+  top: 58%;
   height: 55px;
   margin: 0;
   line-height: 55px;
@@ -82,7 +94,7 @@ body{
 
 #next{
   right: 0;
-  top: 45%;
+  top: 58%;
   margin: 0;
   height: 55px;
   line-height: 55px;
@@ -176,7 +188,6 @@ body{
 
 .sidebarTitle{
   font-size: 1.5em;
-  font-weight: bold;
   text-align: center;
   margin: 0;
 }
@@ -190,6 +201,7 @@ body{
 
 .sidebarPost{
   overflow: hidden;
+  margin-top: 15px;
 }
 
 .sidebarPost .sidebarImage, .sidebar h5, .sidebar p, .sidebar a{
@@ -255,8 +267,8 @@ body{
 /* footer.php */
 
 footer{
-  height: 100px;
-  margin-top: 50px;
+  height: 150px;
+  margin-top: 100px;
   background-color: #EBF9F2;
 }
 
@@ -271,11 +283,196 @@ footer{
   font-weight: bold;
 }
 
-.icons{
-  float: left;
-}
-
 .socialIcon{
   width: 25px;
   height: auto;
+}
+
+#sub{
+  min-width:80%;
+  float:right;
+  text-align:right;
+}
+
+#subB{
+  float:left;
+  text-align:left;
+  background-color: #C6DAE5;
+}
+
+#subB:hover{
+  background-color: #94B5C6;
+}
+
+/* normal post */
+#hellowPost{
+}
+
+.normalPost{
+  margin-top:200px;
+}
+
+.normalTitle{
+
+}
+
+.normalImage{
+  width: 100%;
+  height: auto;
+}
+
+.normalHR{
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid #ADD8E6;
+}
+
+/* comments section */
+.comments{
+  width: 95%;
+  padding: 2.5%;
+  background-color: #F3F5F5;
+  margin-bottom: 25px;
+}
+
+
+.commentsTitle{
+  color: #ADD8E6;
+  font-size: 1.5em;
+}
+
+.commentsSubtitle{
+  color: #ADD8E6;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.commentsPlaceholder{
+  width: 100%;
+}
+
+.commentsHR{
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid #ADD8E6;
+  margin: 10px 0;
+}
+
+.related{
+  width: 24%;
+  display: inline-block;
+}
+
+.relatedImage{
+  width: 100%;
+  height: auto;
+}
+
+.relatedTitle{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.relatedDate{
+  margin: 0;
+  font-size: 1em;
+  color: #ADD8E6;
+  font-weight: bold;
+}
+
+.relatedText{
+  margin: 0;
+}
+
+/* results.php */
+
+
+.imgPost{
+  float: left;
+  margin: 0 0 0 0;
+  width: 27%;
+  position: relative;
+  max-width: 100%;
+}
+
+.imgPost img{
+  width: 100%;
+  height: 100%;
+  float: left;
+  display: block;
+}
+
+.imgPost .txt:hover{
+  opacity: 0.8;
+  background-color: #EBF9F2;
+  color: black;
+  font-weight: bold;
+}
+
+.imgPost .txt {
+  position: absolute;
+  text-align: center;
+  font-size: 0.5vw;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  line-height: 700%;
+  text-transform: uppercase;
+}
+
+.resultPost{
+  width: 95%;
+  padding: 2.5%;
+  margin: 0 0 10px 0;
+  height: 200px;
+  float: left;
+}
+
+.resultPost:hover{
+  background-color: #EBF9F2;
+}
+
+.resultText{
+  width: 70%;
+  float: right;
+  color: black;
+  display: block;
+}
+
+.resultText h3{
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.resultText h4{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 0 0;
+  color: lightgrey;
+}
+
+.resultText p{
+  margin: 0 0 0 0;
+  font-size: 12px;
+  line-height: 124%;
+}
+
+.resultPost hr{
+  height: 1px;
+  margin-top: 215px;
+  background-color: lightblue;
+  width: 100%;
+}
+
+#blogpost{
+  margin-top:200px;
+}
+
+#secTren{
+  margin-top:200px;
 }
