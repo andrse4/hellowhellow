@@ -31,12 +31,12 @@ body{
 
 #headerLinks{
   list-style: none;
-  padding-left:5%;
+  padding-left:12%;
 }
 
 #headerLinks li{
   float: left;
-  width: 16.66%;
+  width: 14%;
   margin: 0;
 }
 
