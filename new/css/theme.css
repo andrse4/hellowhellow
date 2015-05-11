@@ -636,7 +636,7 @@ footer{
   }
 
   #logoM{
-    margin-left: 45px;
+    margin-left: 40px;
     max-height: 35px;
     margin-top:-15px;
   }
@@ -654,7 +654,16 @@ footer{
   }
 
   #headerLinks{
-    display:inline;
+    display:block;
+  }
+
+  #carousel{
+    margin-top: 200px;
+  }
+
+  .socialIcon{
+    width: 20px;
+    height: auto;
   }
 }
 
@@ -665,7 +674,7 @@ footer{
   }
 
   #headerLinks{
-    padding-left:4%;
+    padding-left:0%;
   }
 
   #inicio{
@@ -699,7 +708,17 @@ footer{
   }
 
   #headerLinks{
-    display:inline;
+    display:block;
+  }
+
+
+  #carousel{
+    margin-top: 200px;
+  }
+
+  .socialIcon{
+    width: 20px;
+    height: auto;
   }
 }
 
@@ -710,7 +729,7 @@ footer{
   }
 
   #headerLinks{
-    padding-left:8%;
+    padding-left:6%;
   }
 
   #inicio{
@@ -744,7 +763,16 @@ footer{
   }
 
   #headerLinks{
-    display:inline;
+    display:block;
+  }
+
+  #carousel{
+    margin-top: 200px;
+  }
+
+  .socialIcon{
+    width: 20px;
+    height: auto;
   }
 }
 
@@ -759,6 +787,77 @@ footer{
   }
 
   #headerLinks{
-    display:inline;
+    display:block;
+  }
+
+  #hellowMenu{
+    margin-bottom: 15px;
+    position: fixed;
+    padding: 0% 10%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 99;
+    background-color: white;
+    min-width: 100%;
+    height: 180px;
+  }
+
+  #logoM{
+    margin-top: -25px;
+  }
+
+  #hellowMenu nav{
+    margin-top: 25px;
+    margin-left: 8%;
+  }
+
+  #logo{
+    width: 100%;
+    height: 90px;
+    margin-top:20px;
+  }
+
+  #headerLinks{
+    list-style: none;
+    padding-left:14%;
+  }
+
+  #headerLinks li{
+    float: left;
+    width: 14%;
+    margin: 0;
+  }
+
+  #headerLinks a:link, #headerLinks a:visited {
+    width: 100%;
+    padding: 20px 20%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    cursor: auto;
+  }
+
+  #headerLinks a:link:active, #headerLinks a:visited:active {
+    color: #000000;
+  }
+
+  #inicio:hover { background-color: #82F2BD; }
+
+  #musica:hover { background-color: #FEF593; }
+
+  #moda:hover { background-color: #532F91; }
+
+  #trends:hover { background-color: #FE2A63; }
+
+  #design:hover { background-color: #B0D7EE; }
+
+  #carousel{
+    margin-top: 200px;
+  }
+
+  .socialIcon{
+    width: 20px;
+    height: auto;
   }
 }
