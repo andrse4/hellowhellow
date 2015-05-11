@@ -7,7 +7,7 @@ $(document).ready(function() {
         //do
         $(window).scroll(function() {
             position = $(window).scrollTop();
-            if(position > topDistance && !inside) {
+            if(position > topDistance && !inside && screen.width>=750) {
                 //add events
                 topbarML();
                 $('#hellowMenu').bind('mouseenter',topbarME);
@@ -17,7 +17,7 @@ $(document).ready(function() {
                 $('#logoM').css({'display':'block'});
                 inside = true;
             }
-            else if (position < topDistance){
+            else if (position < topDistance && screen.width>=750){
                 topbarME();
                 $('#hellowMenu').unbind('mouseenter',topbarME);
                 $('#hellowMenu').unbind('mouseleave',topbarML);
@@ -26,18 +26,15 @@ $(document).ready(function() {
                 $('#logoM').css({'display':'none'});
                 inside = false;
             }
-            if($(window).scrollTop() > topDistance){
-              $('#logo').css({'height': '50'});
-              $('#logo').css({'margin-top': '10px'});
+            if($(window).scrollTop() > topDistance && screen.width>=750){
               $('#hellowMenu').css({'height': '132'});
-              $('#logoM').css({'height': '50'});
               $('#headerLinks').css({'margin-top': '40px'});
-              $('#logoM').css({'margin-top': '-25px'});
+
             }else{
-                $('#logo').css({'height': '90'});
-                $('#logo').css({'margin-top': '5px'});
+              if(screen.width>=750){
                 $('#hellowMenu').css({'height': '180'});
                 $('#headerLinks').css({'margin-top': '0px'});
+              }
             }
         });
     })();

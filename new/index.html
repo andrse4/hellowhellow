@@ -17,6 +17,15 @@
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/static.js"></script>
 
+
+    <script type="text/javascript">
+    	jQuery(function($){
+        	     $( '.menu-btn' ).click(function(){
+        	     $('.responsive-menu').toggleClass('expand')
+        	     })
+            })
+    </script>
+
   </head>
   <body>
     <!-- header.php -->
@@ -34,6 +43,24 @@
           <li><a id="design" href="#">Design</a></li>
         </ul>
       </nav>
+    </div>
+    <div class="mobile-nav">
+         <div class="menu-btn" id="menu-btn">
+    	<div></div>
+    	<span></span>
+    	<span></span>
+    	<span></span>
+         </div>
+
+         <div class="responsive-menu">
+           <ul id="burgerLinks">
+             <li id="in"><a id="inicioB" href="#">Inicio</a></li>
+             <li id="mu"><a id="musicaB" href="#">Música</a></li>
+             <li id="mo"><a id="modaB" href="#">Moda</a></li>
+             <li id="tr"><a id="trendsB" href="#">Trends</a></li>
+             <li id="de"><a id="designB" href="#">Design</a></li>
+           </ul>
+         </div>
     </div>
     <!-- carousel.php -->
     <div id="hellowCarousel" class="container">
@@ -235,7 +262,7 @@
           <a href="#">Design</a>
         </div>
         <div class="two columns footerLink">
-          <a href="#">Síguenos en</a>
+          <a href="#">Síguenos</a>
           <div class="icons">
             <img class="socialIcon" src="images/facebook3.svg">
             <img class="socialIcon" src="images/twitter12.svg">
