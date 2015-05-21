@@ -271,7 +271,7 @@ body{
 /* footer.php */
 
 footer{
-  height: 150px;
+  height: 100%;
   margin-top: 100px;
   background-color: #EBF9F2;
 }
@@ -558,6 +558,40 @@ footer{
 @media (min-width: 320px) {
   .mobile-nav{
     display: inline;
+    margin-left:26px;
+  }
+
+  #next{
+    top: 62%;
+    font-size:2.5rem;
+    height: 40px;
+    line-height:26px;
+    padding: 0px 24px 0 12px;
+  }
+
+  .expand{
+    width:120%;
+  }
+
+  .responsive-menu li{
+    line-height:36px;
+  }
+
+  #prev{
+    top: 62%;
+    font-size:2.5rem;
+    height: 40px;
+    line-height:26px;
+    padding: 0px 12px 0 0;
+  }
+
+  .carouselTitle{
+    font-size: 2rem;
+    margin-left:34px;
+  }
+
+  .carouselLink{
+    font-size:1.2rem;
   }
 
   #headerLinks{
@@ -581,12 +615,43 @@ footer{
     width: 15px;
     height: auto;
   }
+
+  #sub{
+    float:none;
+  }
+
+  #subB{
+    float:none;
+  }
+
+  .featuredPost{
+    font-size:1.2rem;
+  }
+
+  .topPost{
+    font-size:1.2rem;
+  }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   .mobile-nav{
     display: inline;
+    margin-left:65px;
+  }
+
+  .expand{
+    width:105%;
+  }
+
+  #prev{
+    padding:0 12px 0 12px;
+    height:50px;
+  }
+
+  #next{
+    padding:0 18px 0 12px;
+    height:50px;
   }
 
   #headerLinks{
@@ -720,6 +785,53 @@ footer{
     width: 20px;
     height: auto;
   }
+
+  #sub{
+    float:right;
+  }
+
+  #subB{
+    float:right;
+  }
+
+  .featuredPost{
+    font-size:1.5rem;
+  }
+
+  .topPost{
+    font-size:1.5rem;
+  }
+
+  #prev{
+    top: 58%;
+    height: 55px;
+    margin: 0;
+    line-height: 55px;
+    padding: 0 12px 0 12px;
+    position: absolute;
+    z-index: 2;
+    font-size: 3em;
+    color: #B9FEAB;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+  }
+
+  #next{
+    right: 0;
+    top: 58%;
+    margin: 0;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 12px 0 12px;
+    position: absolute;
+    z-index: 2;
+    font-size: 3em;
+    color: #B9FEAB;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+  }
 }
 
 /* Larger than Desktop HD */
@@ -773,6 +885,53 @@ footer{
   .socialIcon{
     width: 20px;
     height: auto;
+  }
+
+  #sub{
+    float:right;
+  }
+
+  #subB{
+    float:right;
+  }
+
+  .featuredPost{
+    font-size:1.5rem;
+  }
+
+  .topPost{
+    font-size:1.5rem;
+  }
+
+  #prev{
+    top: 58%;
+    height: 55px;
+    margin: 0;
+    line-height: 55px;
+    padding: 0 12px 0 12px;
+    position: absolute;
+    z-index: 2;
+    font-size: 3em;
+    color: #B9FEAB;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+  }
+
+  #next{
+    right: 0;
+    top: 58%;
+    margin: 0;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 12px 0 12px;
+    position: absolute;
+    z-index: 2;
+    font-size: 3em;
+    color: #B9FEAB;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
   }
 }
 
@@ -859,5 +1018,52 @@ footer{
   .socialIcon{
     width: 20px;
     height: auto;
+  }
+
+  #sub{
+    float:right;
+  }
+
+  #subB{
+    float:right;
+  }
+
+  .featuredPost{
+    font-size:1.5rem;
+  }
+
+  .topPost{
+    font-size:1.5rem;
+  }
+
+  #prev{
+    top: 58%;
+    height: 55px;
+    margin: 0;
+    line-height: 55px;
+    padding: 0 12px 0 12px;
+    position: absolute;
+    z-index: 2;
+    font-size: 3em;
+    color: #B9FEAB;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+  }
+
+  #next{
+    right: 0;
+    top: 58%;
+    margin: 0;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 12px 0 12px;
+    position: absolute;
+    z-index: 2;
+    font-size: 3em;
+    color: #B9FEAB;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
   }
 }
